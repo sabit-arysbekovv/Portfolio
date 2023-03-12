@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    font-family: 'Courier New', Courier, monospace';
+    
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    min-width: 400px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.logo{
+    text-decoration: none;
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 8%;
+    transition: 0.5s ease;
+}
+
+.logo:hover{
+    color: #ffffff;
+}
+
+.nav-links{
+    text-align: right;
+    background: #fcd10f;
+    padding: 10px 30px;
+    border-bottom-left-radius: 18px;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.5s ease;
+}
+
+.nav-links ul li a:hover{
+    color: #000;
+}
+
+.left-sisbar{
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #fcd10f;
+    border-bottom-right-radius: 35%;
+    border-top-right-radius: 35%;
+}
+
+.row{
+    padding: 0 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 5%;
+}
+
+.left-col{
+    flex-basis: 40%;
+}
+
+.right-col{
+    flex-basis: 50%;
+}
+
+.left-col img{
+    width: 70%;
+    cursor: pointer;
+    transition: transform 0.3s;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 15px 7px rgb(0, 0, 0);
+}
+
+.left-col img:hover{
+    transform: translateY(-25px);
+}
+
+.right-col h1{
+    font-weight: bold;
+    color: #fcd10f;
+    font-size: 55px;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.right-col h1:hover{
+    color: #fff;
+}
+
+.right-col p{
+    margin: 20px 0 70px;
+    color: #fcd10f;
+    text-decoration: none;
+    transition: 1s ease;
+}
+
+.right-col p:hover{
+    color: #fff;
+}
